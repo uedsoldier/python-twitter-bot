@@ -1,0 +1,14 @@
+import os 
+from typing import Final
+
+REDIS_HOST: Final = os.getenv('REDIS_HOST','localhost')
+REDIS_CONTAINER_PORT: Final = int(os.getenv('REDIS_CONTAINER_PORT','6379'))
+REDIS_ADMIN_USER: Final = os.getenv('REDIS_ADMIN_USER', 'default')
+REDIS_ADMIN_PASSWORD: Final = os.getenv('REDIS_ADMIN_PASSWORD', None)
+
+TWITTER_CONSUMER_KEY: Final = os.getenv('TWITTER_CONSUMER_KEY') 
+TWITTER_CONSUMER_SECRET: Final = os.getenv('TWITTER_CONSUMER_SECRET')
+TWITTER_ACCESS_TOKEN: Final = os.getenv('TWITTER_ACCESS_TOKEN')
+TWITTER_ACCESS_TOKEN_SECRET: Final = os.getenv('TWITTER_ACCESS_TOKEN_SECRET')
+
+TWITTER_BOT_LOGFILE: Final = os.getenv('TWITTER_BOT_LOGFILE')
