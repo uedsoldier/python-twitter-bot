@@ -1,1 +1,1 @@
-0 */4 * * * /bin/bash -l /app/run_bot.sh >> /proc/1/fd/1 2>> /proc/1/fd/2
+0 */4 * * * /bin/bash -l /Twitter-bot/python-twitter-bot/run_bot.sh >> /proc/1/fd/1 2>> /proc/1/fd/2
