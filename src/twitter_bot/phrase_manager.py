@@ -14,6 +14,8 @@ class PhraseManager:
         # Add placeholders if they don't exist
         self.store.sadd(self.used_phrases_db_key,self.used_phrases_placeholder)
         self.store.sadd(self.forced_phrases_db_key,self.forced_phrases_placeholder)
+
+        self.get_phrases_databases()
     
     def get_phrases_databases(self) -> None:
         """Updates all phrases databases from redis:
