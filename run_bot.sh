@@ -3,7 +3,7 @@
 # This script is executed from the container's root folder: /app
 
 # Change to script source directory
-cd /app || exit 1
+cd /Twitter-bot/python-twitter-bot/ || exit 1
 
 # Log start with timestamp
 echo "[$(date)] Starting bot execution..."
