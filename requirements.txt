@@ -8,5 +8,6 @@ pytz==2025.2
 redis==6.2.0
 requests==2.32.4
 requests-oauthlib==2.0.0
+setuptools==80.9.0
 tweepy==4.16.0
 urllib3==2.5.0
